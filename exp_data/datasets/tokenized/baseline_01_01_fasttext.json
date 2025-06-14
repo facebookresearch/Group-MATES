@@ -1,0 +1,21 @@
+{
+    "uuid": "95a9be54-f57d-4fd3-a5d7-bb693f4a94ba",
+    "name": "baseline_01_01_fasttext",
+    "creation_date": "2024_08_22-01_15_06",
+    "dataset_url": "baseline_01_01_fasttext_tokenized",
+    "manifest_url": "/data/datasets/hf_cache/baseline_01_0_fasttext_tokenized/manifest.jsonl /data/datasets/hf_cache/baseline_01_1_fasttext_tokenized/manifest.jsonl",
+    "sources": [
+        {
+            "uuid": "f12dc026-cc4a-4203-ba9f-9ba08c5945f9",
+            "name": "baseline_01_01_fasttext"
+        }
+    ],
+    "tokenized": true,
+    "tokenizer": "tokenization_configs/pythia-410m",
+    "num_tokens": 0,
+    "size": 101084072,
+    "dcnlp_commit_hash": null,
+    "dcnlp_diff": "",
+    "data_key": "json.gz",
+    "sampling_yaml": null
+}

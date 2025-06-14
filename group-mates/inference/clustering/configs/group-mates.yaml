@@ -1,0 +1,15 @@
+sim_metric: "cosine"
+keep_hard: True
+Kmeans_with_cos_dist: True
+emb_memory_loc: "/data/datasets/hf_cache/dclm_logs/baseline_01_01_fasttext-d=1024_l=24_h=8-warm=2000-lr=0p003-wd=0p033-cd=3e-05-bs=512-mult=4-seed=124-tokens=32929300480/checkpoints/epoch_2/dim-prediction/emb.npy"
+text_emb_memory_loc: None
+paths_memory_loc: "/data/datasets/hf_cache/dclm_logs/baseline_01_01_fasttext-d=1024_l=24_h=8-warm=2000-lr=0p003-wd=0p033-cd=3e-05-bs=512-mult=4-seed=124-tokens=32929300480/checkpoints/epoch_2/dim-prediction/paths.npy"
+sorted_clusters_file_loc: "/data/datasets/hf_cache/dclm_logs/baseline_01_01_fasttext-d=1024_l=24_h=8-warm=2000-lr=0p003-wd=0p033-cd=3e-05-bs=512-mult=4-seed=124-tokens=32929300480/checkpoints/epoch_2/dim-prediction/sorted_clusters"
+save_folder: "/data/datasets/hf_cache/dclm_logs/baseline_01_01_fasttext-d=1024_l=24_h=8-warm=2000-lr=0p003-wd=0p033-cd=3e-05-bs=512-mult=4-seed=124-tokens=32929300480/checkpoints/epoch_2/dim-prediction/cluster_info"
+path_str_type: "S24"
+ncentroids: 10000
+dataset_size: 29478616
+emb_size: 768
+niter: 100
+seed: 1234
+selection_ratio: 0.5

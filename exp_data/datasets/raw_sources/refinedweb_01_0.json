@@ -1,0 +1,13 @@
+{
+    "uuid": "f12dc026-cc4a-4203-ba9f-9ba08c5945f9",
+    "name": "baseline_01_0",
+    "dataset_url": "s3://commoncrawl/contrib/datacomp/DCLM-refinedweb/global-shard_01_of_10/local-shard_0_of_10",
+    "manifest_url": null,
+    "sources": [],
+    "tokenized": false,
+    "tokenizer": null,
+    "num_tokens": null,
+    "dcnlp_commit_hash": null,
+    "dcnlp_diff": null,
+    "data_key": "jsonl.zstd"
+}
